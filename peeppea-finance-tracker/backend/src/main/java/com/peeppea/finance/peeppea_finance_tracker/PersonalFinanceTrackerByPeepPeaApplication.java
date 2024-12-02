@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PersonalFinanceTrackerByPeepPeaApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(PersonalFinanceTrackerByPeepPeaApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(PersonalFinanceTrackerByPeepPeaApplication.class, args);
+    }
 }
