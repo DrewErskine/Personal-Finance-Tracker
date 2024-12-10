@@ -1,2 +1,0 @@
-rootProject.name = 'peeppea-finance-tracker'
-include('backend', 'frontend')
