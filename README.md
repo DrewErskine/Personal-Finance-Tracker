@@ -57,14 +57,14 @@ This project combines **JavaFX** (for desktop UI) and **Spring Boot** (for backe
 ---
 
 ### **2. Project Structure**
-```plaintext
+
 personal-finance-tracker/
 ├── backend/                   # Spring Boot Backend
 │   ├── src/main/java
 │   │   ├── com.example.finance
-│   │       ├── controller/    # REST Controllers
-│   │       ├── service/       # Business Logic
-│   │       ├── model/         # JPA Entities
+│   │       ├── controllers/    # REST Controllers
+│   │       ├── services/       # Business Logic
+│   │       ├── models/         # JPA Entities
 │   │       ├── repository/    # Database Repositories
 │   │       └── config/        # Spring Configurations
 │   └── src/main/resources
