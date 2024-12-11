@@ -14,8 +14,8 @@ public class DataSourceConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:postgresql://localhost:5432/peeppea_finance_tracker");
-        dataSource.setUsername("your_username");
-        dataSource.setPassword("your_password");
+        dataSource.setUsername("drew");
+        dataSource.setPassword("peeppea");
         return dataSource;
     }
 }
